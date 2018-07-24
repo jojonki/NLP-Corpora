@@ -1,14 +1,19 @@
 # NLP-Corpora
 ---
 
-This is a list of NLP corpora. You can report a new corpus at the Issue page.
+This is a list of NLP corpora. You can report a new corpus at the Issues page.
 
-- 🤖🤖 Machine-toMachine conversations which were synthetically generated.
-- 👦🧒 Human-to-Human conversations. (including dialogs by crowd sourcing workers).
+- 🤖🤖 Machine-to-Machine conversations which were synthetically generated.
+- 👦🧒 Human-to-Human conversations. (including dialogs by crowd workers such as Mechanical Turk).
 - 👦🤖 Human-to-Machine (dialog systems) conversations.
 - 🧙‍♂️ The data was collected using a Wizard-of-Oz scheme.
 
 ### Dialog (Task-oriented)
+
+- [Large-Scale Multi-Domain Belief Tracking with Knowledge Sharing, Cambridge, 2018](https://arxiv.org/pdf/1807.06517.pdf)👦👦🧙‍♂️    
+2480 single-domain dialogs and 7375 multi-domain dialogs (usually from 2 up to 5 domains).    
+There are [Code](https://github.com/nmrksic/neural-belief-tracker) and [Corpus (will be available)](http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/).   
+
 - [The (6) dialog bAbI tasks, facebook, 2016.](https://research.fb.com/downloads/babi/) 👦🤖		
 The set of six tasks for testing e2e task-oriented dialogs systems for restaurant reservation. Task1-5 are synthetically generated data while Task6 is created from human-to-computer dialogs (DSTC2).		
 For each task, there are 1000 dialogs for training, 1000 for development and 1000 for testing. 
@@ -24,8 +29,8 @@ For each task, there are 1000 dialogs for training, 1000 for development and 100
 	S: Let me confirm , You are looking for a restaurant in the cheap price range right?
 	```
 
-- [babi plus, 2017.](https://arxiv.org/abs/1709.07840) 🤖🤖    
-Synthetically added disfluency to bAbI-Task 1. And [their code](https://github.com/ishalyminov/memn2n) is also available.
+- [babi plus, Heriot-Watt, 2017.](https://arxiv.org/abs/1709.07840) 🤖🤖    
+Synthetically added disfluencies to the dialogs of bAbI-Task 1. And [their code](https://github.com/ishalyminov/memn2n) is also available.
 
 	```:example
 	sys: hello what can I help you with today?
@@ -54,11 +59,11 @@ Three domains (weather/calendar/poi) dialogs of a car assistant.
 
 ### Dialog (Others)
 
-- [The Ubuntu Dialogue Corpus, 2015. [Human2Human]](https://github.com/rkadlec/ubuntu-ranking-dataset-creator)🧒🧒    
+- [The Ubuntu Dialogue Corpus, 2015.](https://github.com/rkadlec/ubuntu-ranking-dataset-creator)🧒🧒    
  Human to Human dialogs in Ubuntu boards.    
 1 million multi-turn dialogues, with a total of over 7 million utterances and 100 million words. 
 
-- [DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset, 2017. [Human2Human]](http://yanran.li/dailydialog)👦🧒    
+- [DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset, 2017.](http://yanran.li/dailydialog)👦🧒    
 The dialogs are our daily communication way and cover various topics about our daily life. The dataset contains 13,118 multi-turn dialogs.    
 
 	```:example
