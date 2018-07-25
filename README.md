@@ -54,6 +54,25 @@ Three domains (weather/calendar/poi) dialogs of a car assistant.
 		CAR	:	No problem.
 	```
 
+
+- [Frames: A Corpus for Adding Memory to Goal-Oriented Dialogue Systems, Maluuba, 2017.](https://datasets.maluuba.com/Frames)👦👦🧙‍      
+ A corpus of 1369 human-human dialogues with an average of 15 turns per dialog collected in Wizard-of-Oz.
+ 
+	```:example
+	User	I'd like to book a trip to boston from London on Saturday, August 13, 2016 for 8 adults. I have a tight budget of 1700.	Frame #1
+	Act 1	inform(intent=book)	
+	Act 2	inform(dst_city = boston, or_city = London, str_date = Saturday\, August 13\, 2016, n_adults = 8, budget = 1700)"	
+	Wizard	"Hi...I checked a few options for you, and unfortunately, we do not currently have any trips that meet this criteria. Would you like to book an alternate travel option?"	Frame #1
+	Act 1	no_result	
+	Act 2	suggest(dst_city)	
+	User	"Yes, how about going to Detroit from London on August 13, 2016 for 5 adults. For this trip, my budget would be 1900."	Frame #2
+	Act 1	inform(dst_city = Detroit, n_adults = 5, budget = 1900, ref = [1{or_city = London, str = August 13\, 2016}])	
+	Wizard	"I checked the availability for those dates and there were no trips available. Would you like to select some alternate dates?"	Frame #2
+	Act 1	no_result(str_date, end_date)	
+	Act 2	suggest(str_date, end_date)
+	```
+
+
 - [DSTC 1-6](https://www.microsoft.com/en-us/research/event/dialog-state-tracking-challenge/)👦🤖	
   Dialog State Tracking Challenge is research community tasks. The link presents each DSTC task.
 
