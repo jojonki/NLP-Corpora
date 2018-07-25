@@ -59,9 +59,25 @@ Three domains (weather/calendar/poi) dialogs of a car assistant.
 
 ### Dialog (Others)
 
-- [The Ubuntu Dialogue Corpus, 2015.](https://github.com/rkadlec/ubuntu-ranking-dataset-creator)🧒🧒    
- Human to Human dialogs in Ubuntu boards.    
-1 million multi-turn dialogues, with a total of over 7 million utterances and 100 million words. 
+
+- [Personalizing Dialogue Agents, facebook, 2018.](https://github.com/facebookresearch/ParlAI/tree/master/projects/personachat)👦🧒    
+Two people dialogs, conditioned on personas.
+This contains 164,356 utterances (10,981 dialogs).
+
+	```example
+	[PERSON 1:] Hi
+	[PERSON 2:] Hello ! How are you today ?
+	[PERSON 1:] I am good thank you , how are you.
+	[PERSON 2:] Great, thanks ! My children and I were just about to watch Game of Thrones.
+	[PERSON 1:] Nice ! How old are your children?
+	[PERSON 2:] I have four that range in age from 10 to 21. You?
+	[PERSON 1:] I do not have children at the moment.
+	[PERSON 2:] That just means you get to keep all the popcorn for yourself.
+	[PERSON 1:] And Cheetos at the moment!
+	[PERSON 2:] Good choice. Do you watch Game of Thrones?
+	[PERSON 1:] No, I do not have much time for TV.
+	[PERSON 2:] I usually spend my time painting: but, I love the show.
+	```
 
 - [DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset, 2017.](http://yanran.li/dailydialog)👦🧒    
 The dialogs are our daily communication way and cover various topics about our daily life. The dataset contains 13,118 multi-turn dialogs.    
@@ -74,6 +90,10 @@ The dialogs are our daily communication way and cover various topics about our d
 	B: That’s annoying, but nothing to worry about.
 	   Just breathe deeply when you feel yourself getting upset.
 	```
+	
+- [The Ubuntu Dialogue Corpus, 2015.](https://github.com/rkadlec/ubuntu-ranking-dataset-creator)🧒🧒    
+ Human to Human dialogs in Ubuntu boards.    
+1 million multi-turn dialogues, with a total of over 7 million utterances and 100 million words. 
 
 ### Question Answering
 
