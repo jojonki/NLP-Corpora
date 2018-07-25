@@ -6,11 +6,11 @@ This is a list of NLP corpora. You can report a new corpus at the Issues page.
 - 🤖🤖 Machine-to-Machine conversations which were synthetically generated.
 - 👦🧒 Human-to-Human conversations. (including dialogs by crowd workers such as Mechanical Turk).
 - 👦🤖 Human-to-Machine (dialog systems) conversations.
-- 🧙‍♂️ The data was collected using a Wizard-of-Oz scheme.
+- 🧙‍ The data was collected using a Wizard-of-Oz scheme.
 
 ### Dialog (Task-oriented)
 
-- [Large-Scale Multi-Domain Belief Tracking with Knowledge Sharing, Cambridge, 2018](https://arxiv.org/pdf/1807.06517.pdf)👦👦🧙‍♂️    
+- [Large-Scale Multi-Domain Belief Tracking with Knowledge Sharing, Cambridge, 2018](https://arxiv.org/pdf/1807.06517.pdf)👦👦🧙‍    
 2480 single-domain dialogs and 7375 multi-domain dialogs (usually from 2 up to 5 domains).    
 There are [Code](https://github.com/nmrksic/neural-belief-tracker) and [Corpus (will be available)](http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/).   
 
@@ -41,7 +41,7 @@ Synthetically added disfluencies to the dialogs of bAbI-Task 1. And [their code]
 	usr: with indian food no sorry with spanish food
 	```
 
-- [A New Multi-Turn, Multi-Domain, Task-Oriented Dialogue Dataset, Stanford, 2017.](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)👦👦🧙‍♂️		
+- [A New Multi-Turn, Multi-Domain, Task-Oriented Dialogue Dataset, Stanford, 2017.](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)👦👦🧙‍		
 Three domains (weather/calendar/poi) dialogs of a car assistant.	
 3,031 multi-turn dialogues are created in manner of Wizard-of-Oz.
 
