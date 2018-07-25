@@ -78,6 +78,24 @@ This contains 164,356 utterances (10,981 dialogs).
 	[PERSON 1:] No, I do not have much time for TV.
 	[PERSON 2:] I usually spend my time painting: but, I love the show.
 	```
+	
+- [Edina: Building an Open Domain Socialbot with Self-dialogues, 2017.](https://github.com/jfainberg/self_dialogue_corpus)👦👦    
+The data is collected by AMT in manner of _self-dialog_, and used in Alexa Prize 2017.
+The workers created self-dialogs alone given a topic.
+There are 24,283 self-dialogues, 3,653,313 words, across 141,945 turns, from 2,717 Workers.
+	
+	```example
+	What is your absolute favorite movie?
+	I think Beauty and the Beast is my favorite.
+	The new one?
+	No, the cartoon. Something about it just feels magical.
+	It is my favorite Disney movie.
+	What’s your favorite movie in general?
+	I think my favorite is The Sound of Music.
+	Really? Other than cartoons and stuff I can never get into musicals.
+	I love musicals. I really liked Phantom of the Opera.
+	```
+
 
 - [DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset, 2017.](http://yanran.li/dailydialog)👦🧒    
 The dialogs are our daily communication way and cover various topics about our daily life. The dataset contains 13,118 multi-turn dialogs.    
