@@ -6,7 +6,10 @@ This is a list of NLP corpora. You can report a new corpus at the Issues page.
 - 🤖🤖 Machine-to-Machine conversations which were synthetically generated.
 - 👦🧒 Human-to-Human conversations. (including dialogs by crowd workers such as Mechanical Turk).
 - 👦🤖 Human-to-Machine (dialog systems) conversations.
-- 🧙‍ The data was collected using a Wizard-of-Oz scheme.
+- 📝 Written dialogs, utterance is not assumed.
+- 🗣 Spoken dialogs, also containing assuming to speak (generally written dialogs by crowd workers). 
+- 🧙‍ The data was collected using a [Wizard-of-Oz](https://en.wikipedia.org/wiki/Wizard_of_Oz_experiment) scheme.
+
 
 ### Dialog (Task-oriented)
 
@@ -14,22 +17,22 @@ This is a list of NLP corpora. You can report a new corpus at the Issues page.
 2480 single-domain dialogs and 7375 multi-domain dialogs (usually from 2 up to 5 domains).    
 There are [Code](https://github.com/nmrksic/neural-belief-tracker) and [Corpus (will be available)](http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/).   
 
-- [The (6) dialog bAbI tasks, facebook, 2016.](https://research.fb.com/downloads/babi/) 👦🤖		
+- [The (6) dialog bAbI tasks, facebook, 2016.](https://research.fb.com/downloads/babi/) 👦🤖🗣		
 The set of six tasks for testing e2e task-oriented dialogs systems for restaurant reservation. Task1-5 are synthetically generated data while Task6 is created from human-to-computer dialogs (DSTC2).		
 For each task, there are 1000 dialogs for training, 1000 for development and 1000 for testing. 
 
 	```:Task 6 example
-	U: <SILENCE>	Hello , welcome to the Cambridge restaurant system?
-	S; You can ask for restaurants by area , price range or food type . How may I help you?
+	U: <SILENCE>	
+	S: Hello , welcome to the Cambridge restaurant system? You can ask for restaurants by area , price range or food type . How may I help you?
 	U: cheap restaurant that serves german food
-	S: 	I'm sorry but there is no restaurant serving german food
+	S: I'm sorry but there is no restaurant serving german food
 	U: what about asian oriental foo
 	S: You are looking for a german restaurant right?
 	U: asian
 	S: Let me confirm , You are looking for a restaurant in the cheap price range right?
 	```
 
-- [babi plus, Heriot-Watt, 2017.](https://arxiv.org/abs/1709.07840) 🤖🤖    
+- [babi plus, Heriot-Watt, 2017.](https://arxiv.org/abs/1709.07840) 🤖🤖🗣    
 Synthetically added disfluencies to the dialogs of bAbI-Task 1. And [their code](https://github.com/ishalyminov/memn2n) is also available.
 
 	```:example
@@ -73,13 +76,18 @@ Three domains (weather/calendar/poi) dialogs of a car assistant.
 	```
 
 
-- [DSTC 1-6](https://www.microsoft.com/en-us/research/event/dialog-state-tracking-challenge/)👦🤖	
-  Dialog State Tracking Challenge is research community tasks. The link presents each DSTC task.
+- [DSTC 1-6](https://www.microsoft.com/en-us/research/event/dialog-state-tracking-challenge/)👦🤖🗣	
+  Dialog State Tracking Challenge is research community tasks. The link presents each DSTC task respectively.
+  - DSTC1: Bus schedules.
+  - DSTC2/3: Restaurant reservations.
+  - DSTC4: Tourist information.
+  - DSTC5: Tourist information, and privided in several languages.
+  - DSTC6: It consists of 3 parallel tracks: End-to-End Goal Oriented Dialog Learning, End-to-End Conversation Modeling, and Dialogue Breakdown Detection.
 
 ### Dialog (Others)
 
 
-- [Personalizing Dialogue Agents, facebook, 2018.](https://github.com/facebookresearch/ParlAI/tree/master/projects/personachat)👦🧒    
+- [Personalizing Dialogue Agents, facebook, 2018.](https://github.com/facebookresearch/ParlAI/tree/master/projects/personachat)👦🧒📝    
 Two people dialogs, conditioned on personas.
 This contains 164,356 utterances (10,981 dialogs).
 
@@ -116,7 +124,7 @@ There are 24,283 self-dialogues, 3,653,313 words, across 141,945 turns, from 2,7
 	```
 
 
-- [DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset, 2017.](http://yanran.li/dailydialog)👦🧒    
+- [DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset, 2017.](http://yanran.li/dailydialog)👦🧒📝    
 The dialogs are our daily communication way and cover various topics about our daily life. The dataset contains 13,118 multi-turn dialogs.    
 
 	```:example
@@ -128,13 +136,13 @@ The dialogs are our daily communication way and cover various topics about our d
 	   Just breathe deeply when you feel yourself getting upset.
 	```
 	
-- [The Ubuntu Dialogue Corpus, 2015.](https://github.com/rkadlec/ubuntu-ranking-dataset-creator)🧒🧒    
+- [The Ubuntu Dialogue Corpus, 2015.](https://github.com/rkadlec/ubuntu-ranking-dataset-creator)🧒🧒📝    
  Human to Human dialogs in Ubuntu boards.    
 1 million multi-turn dialogues, with a total of over 7 million utterances and 100 million words. 
 
 ### Question Answering
 
-- [SQuAD 2.0, 2018](https://rajpurkar.github.io/SQuAD-explorer/)     
+- [SQuAD 2.0, 2018](https://rajpurkar.github.io/SQuAD-explorer/)📝     
 
 	> SQuAD2.0 combines the 100,000 questions in SQuAD1.1 with over 50,000 new, unanswerable questions written adversarially by crowdworkers to look similar to answerable ones. 
 
