@@ -13,6 +13,7 @@ This is a list of NLP corpora. You can report a new corpus at the Issues page.
 		- [Question Answering](#question-answering)
 		- [Translation](#translation)
 		- [Sentiment Analysis](#sentiment-analysis)
+		- [Others](#others)
 	- [References](#references)
 
 <!-- /TOC -->
