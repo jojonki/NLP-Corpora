@@ -21,7 +21,7 @@ This is a list of NLP corpora. You can report a new corpus at the Issues page.
 - 🤖🤖 Machine-to-Machine conversations which were synthetically generated.
 - 👦🧒 Human-to-Human conversations. (including dialogs by crowd workers such as Mechanical Turk).
 - 👦🤖 Human-to-Machine (dialog systems) conversations.
-- 📝 Written dialogs, utterance is not assumed.
+- 📝 Written texts, utterance is not assumed.
 - 🗣 Spoken dialogs, also containing assuming to speak (generally written dialogs by crowd workers).
 - 🧙‍ The data was collected using a [Wizard-of-Oz](https://en.wikipedia.org/wiki/Wizard_of_Oz_experiment) scheme.
 
@@ -168,6 +168,10 @@ The dialogs are our daily communication way and cover various topics about our d
 ### Sentiment Analysis
 
 🚧
+
+### Others
+- [YouTube AV 50K: an Annotated Corpus for Comments in Autonomous Vehicles, 2018](https://arxiv.org/abs/1807.11227)🧒📝  
+Comments from 50K Youtube videos related to autonomous vehicles. The total # of comments is 30,456 including 19,126 annotated comments.
 
 ## References
 - [A Survey of Available Corpora for Building Data-Driven Dialogue Systems](https://breakend.github.io/DialogDatasets/)
