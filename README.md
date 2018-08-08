@@ -161,6 +161,11 @@ The dialogs are our daily communication way and cover various topics about our d
 
 	> SQuAD2.0 combines the 100,000 questions in SQuAD1.1 with over 50,000 new, unanswerable questions written adversarially by crowdworkers to look similar to answerable ones.
 
+- [Spoken SQuAD, 2018](https://github.com/chiahsuan156/Spoken-SQuAD/)🗣    
+Artificially generated corpus based on SQuAD by using Google TTS. They used Google TTS to generate the spoken version of SQuAD articles. Then, the generated texts are passed to CMU Sphinx (speech recognizer) to validate whether the generated texts contain a correct answer.
+
+- [ODSQA, 2018](https://github.com/chiahsuan156/Spoken-SQuAD/)🗣    
+This is a __Chinese corpus__. Over three thousand questions by 20 Chinese speakers.
 
 ### Translation
 
