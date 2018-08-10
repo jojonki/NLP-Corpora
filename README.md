@@ -31,6 +31,7 @@ This is a list of NLP corpora. You can report a new corpus at the Issues page.
 
 - [Large-Scale Multi-Domain Belief Tracking with Knowledge Sharing, Cambridge, 2018](https://arxiv.org/pdf/1807.06517.pdf)👦👦🧙‍    
 2480 single-domain dialogs and 7375 multi-domain dialogs (usually from 2 up to 5 domains).    
+This dataset is designed for Dialog State Tracking.
 There are [Code](https://github.com/nmrksic/neural-belief-tracker) and [Corpus)](http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/).   
 
 - [The (6) dialog bAbI tasks, facebook, 2016.](https://research.fb.com/downloads/babi/) 👦🤖🗣		
