@@ -180,6 +180,23 @@ This is a __Chinese corpus__. Over three thousand questions by 20 Chinese speake
 - [YouTube AV 50K: an Annotated Corpus for Comments in Autonomous Vehicles, 2018](https://arxiv.org/abs/1807.11227)🧒📝  
 Comments from 50K Youtube videos related to autonomous vehicles. The total # of comments is 30,456 including 19,126 annotated comments.
 
+- [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference. EMNLP 2018.](https://rowanzellers.com/swag/)
+SWAG (Situations With Adversarial Generations) is a dataset for grounded commonsense inference. It consists of 113k multiple choice questions about grounded situations.
+
+	```
+	On stage, a woman takes a seat at the piano. She
+	a) sits on a bench as her sister plays with the doll.
+	b) smiles with someone as the music plays.
+	c) is in the crowd, watching the dancers.
+	d) nervously sets her fingers on the keys. <---
+
+	A girl is going across a set of monkey bars. She
+	a) jumps up across the monkey bars.
+	b) struggles onto the monkey bars to grab her head.
+	c) gets to the end and stands on a wooden plank.  <---
+	d) jumps up and does a back flip.
+	```
+
 ## References
 - [A Survey of Available Corpora for Building Data-Driven Dialogue Systems](https://breakend.github.io/DialogDatasets/)
 - [Natural Language Processing Corpora, NLP for Hackers](https://nlpforhackers.io/corpora/)
