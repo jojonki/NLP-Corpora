@@ -79,7 +79,7 @@ SimDial is a multi-domain dialog generator chich can generate conversations for 
 	User (0.69): No 
 	```
 
-- [The (6) dialog bAbI tasks, facebook, 2016.](https://research.fb.com/downloads/babi/) 👦🤖🗣		
+- [The (6) dialog bAbI tasks, facebook, 2016.](https://research.fb.com/downloads/babi/) 👦🤖🗣    
 The set of six tasks for testing e2e task-oriented dialogs systems for restaurant reservation. Task1-5 are synthetically generated data while Task6 is created from human-to-computer dialogs (DSTC2).		
 For each task, there are 1000 dialogs for training, 1000 for development and 1000 for testing.
 
@@ -105,7 +105,7 @@ Synthetically added disfluencies to the dialogs of bAbI-Task 1. And [their code]
     usr: with indian food no sorry with spanish food
     ```
 
-- [A New Multi-Turn, Multi-Domain, Task-Oriented Dialogue Dataset, Stanford, 2017.](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)👦👦🧙‍    		
+- [A New Multi-Turn, Multi-Domain, Task-Oriented Dialogue Dataset, Stanford, 2017.](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)👦👦🧙‍    
 Three domains (weather/calendar/poi) dialogs of a car assistant.
 3,031 multi-turn dialogues are created in manner of Wizard-of-Oz.
 
@@ -137,8 +137,8 @@ Three domains (weather/calendar/poi) dialogs of a car assistant.
     ```
 
 
-- [DSTC 1-6](https://www.microsoft.com/en-us/research/event/dialog-state-tracking-challenge/)👦🤖🗣
-  Dialog State Tracking Challenge is research community tasks. The link presents each DSTC task respectively.
+- [DSTC 1-6](https://www.microsoft.com/en-us/research/event/dialog-state-tracking-challenge/)👦🤖🗣    
+Dialog State Tracking Challenge is research community tasks. The link presents each DSTC task respectively.
   - DSTC1: Bus schedules.
   - DSTC2/3: Restaurant reservations.
   - DSTC4: Tourist information.
