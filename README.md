@@ -34,23 +34,43 @@ This is a list of NLP corpora. You can report a new corpus at the Issues page.
 This dataset is designed for Dialog State Tracking.
 There are [Code](https://github.com/nmrksic/neural-belief-tracker) and [Corpus)](http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/).   
 
+	```
+	3 domain(s): ['bus', 'hotel', 'train']
+	Usr: I need to book a hotel in the east that has 4 stars.
+	Sys: I can help you with that. What is your price range?
+	Usr: That doesn't matter as long as it has free wifi and parking.
+	Sys: If you'd like something cheap, I recommend the Allenbell. For something moderately priced, I would recommend the Warkworth House.
+	Usr: Could you book the Wartworth for one night, 1 person?
+	Sys: What day will you be staying?
+	Usr: Friday and Can you book it for me and get a reference number ?
+	Sys: Booking was successful.
+	Reference number is : BMUKPTG6.  Can I help you with anything else today?
+	Usr: I am looking to book a train that is leaving from Cambridge to Bishops Stortford on Friday.
+	Sys: There are a number of trains leaving throughout the day.  What time would you like to travel?
+	Usr: I want to get there by 19:45 at the latest.
+	Sys: Okay! The latest train you can take leaves at 17:29, and arrives by 18:07. Would you like for me to book that for you?
+	Usr: Yes please. I also need the travel time, departure time, and price.
+	Sys: Reference number is : UIFV8FAS. The price is 10.1 GBP and the trip will take about 38 minutes. May I be of any other assistance?
+	Usr: Yes. Sorry, but suddenly my plans changed. Can you change the Wartworth booking to Monday for 3 people and 4 nights?
+	Sys: I have made that change and your reference number is YF86GE4J
+	Usr: Thank you very much, goodbye.
+	Sys: You're welcome. Have a nice day!
+	```
+
 - [CMU SimDial: Synthetic Task-oriented Dialog Generator with Controllable Complexity, SIGDIAL 2018.](https://github.com/snakeztc/SimDial)👦🤖🗣
 SimDial is a multi-domain dialog generator chich can generate conversations for slot-filling domains with configurable complexity.
 
 	```
 	Domain: Restaurant
-	Sys: Welcome to the restaurant recommendation system.
-	What do you need?
+	Sys: Welcome to the restaurant recommendation system. What do you need?
 	User (0.83): Hello robot. I am looking for a restaurant.
 	Sys: Which city are you interested in?
-	User (0.75): I am in San Jose. And Korean. Uhm sorry, I
-	am interested in Chinese food.
+	User (0.75): I am in San Jose. And Korean. Uhm sorry, I	am interested in Chinese food.
 	Sys: I believe you said San Jose. I believe you said Chinese.
 	Sys: QUERY goal: restaurant food-pref: Chinese location:
 	San Jose
 	KB: RET restaurant: 17
-	Sys: Restaurant 17 is a good choice. What else can I do
-	for you?
+	Sys: Restaurant 17 is a good choice. What else can I do	for you?
 	User (0.6): Not done yet. Is that restaurant open now?
 	Sys: QUERY goal: open restaurant: 17 food-pref: Chinese
 	location: San Jose
