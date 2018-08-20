@@ -105,7 +105,7 @@ Synthetically added disfluencies to the dialogs of bAbI-Task 1. And [their code]
     usr: with indian food no sorry with spanish food
     ```
 
-- [A New Multi-Turn, Multi-Domain, Task-Oriented Dialogue Dataset, Stanford, 2017.](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)👦👦🧙‍		
+- [A New Multi-Turn, Multi-Domain, Task-Oriented Dialogue Dataset, Stanford, 2017.](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)👦👦🧙‍    		
 Three domains (weather/calendar/poi) dialogs of a car assistant.
 3,031 multi-turn dialogues are created in manner of Wizard-of-Oz.
 
