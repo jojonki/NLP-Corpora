@@ -29,10 +29,35 @@ This is a list of NLP corpora. You can report a new corpus at the Issues page.
 ## Corpora
 ### Dialog (Task-oriented)
 
-- [MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling, 2018.](https://arxiv.org/pdf/1807.06517.pdf)👦👦🧙‍    
+- [MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling, EMNLP 2018.](https://arxiv.org/pdf/1807.06517.pdf)👦👦🧙‍    
 2480 single-domain dialogs and 7375 multi-domain dialogs (usually from 2 up to 5 domains).    
 This dataset is designed for Dialog State Tracking.
 There are [Code](https://github.com/nmrksic/neural-belief-tracker) and [Corpus)](http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/).   
+
+- [CMU SimDial: Synthetic Task-oriented Dialog Generator with Controllable Complexity, SIGDIAL 2018.](https://github.com/snakeztc/SimDial)👦🤖🗣
+SimDial is a multi-domain dialog generator chich can generate conversations for slot-filling domains with configurable complexity.
+
+	```
+	Domain: Restaurant
+	Sys: Welcome to the restaurant recommendation system.
+	What do you need?
+	User (0.83): Hello robot. I am looking for a restaurant.
+	Sys: Which city are you interested in?
+	User (0.75): I am in San Jose. And Korean. Uhm sorry, I
+	am interested in Chinese food.
+	Sys: I believe you said San Jose. I believe you said Chinese.
+	Sys: QUERY goal: restaurant food-pref: Chinese location:
+	San Jose
+	KB: RET restaurant: 17
+	Sys: Restaurant 17 is a good choice. What else can I do
+	for you?
+	User (0.6): Not done yet. Is that restaurant open now?
+	Sys: QUERY goal: open restaurant: 17 food-pref: Chinese
+	location: San Jose
+	KB: RET open: yes
+	Sys: Yes, it is open right now. What else?
+	User (0.69): No 
+	```
 
 - [The (6) dialog bAbI tasks, facebook, 2016.](https://research.fb.com/downloads/babi/) 👦🤖🗣		
 The set of six tasks for testing e2e task-oriented dialogs systems for restaurant reservation. Task1-5 are synthetically generated data while Task6 is created from human-to-computer dialogs (DSTC2).		
