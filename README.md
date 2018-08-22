@@ -214,8 +214,7 @@ CoQA is a large-scale dataset for building Conversational Question Answering sys
 
 	Q1: Who had a birthday?
 	A1: Jessica
-	R1: Jessica went to sit in her rocking chair. Today was her
-	birthday and she was turning 80.
+	R1: Jessica went to sit in her rocking chair. Today was her birthday and she was turning 80.
 	Q2: How old would she be?
 	A2: 80
 	R2: she was turning 80
