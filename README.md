@@ -203,6 +203,25 @@ The dialogs are our daily communication way and cover various topics about our d
 
 ### Question Answering
 
+- [CoQA, 2018](https://stanfordnlp.github.io/coqa/)🧒🧒🗣  
+CoQA is a large-scale dataset for building Conversational Question Answering systems. It contains 127K questions with answers obtained from 8K conversations. Each conversation is collected by paring two crowdworkers to chat about a passage in the form of QAs.    
+	```
+	Jessica went to sit in her rocking chair. Today was her birthday
+	and she was turning 80. Her granddaughter Annie was coming
+	over in the afternoon and Jessica was very excited to see
+	her. Her daughter Melanie and Melanie’s husband Josh were
+	coming as well. Jessica had . . .
+
+	Q1: Who had a birthday?
+	A1: Jessica
+	R1: Jessica went to sit in her rocking chair. Today was her
+	birthday and she was turning 80.
+	Q2: How old would she be?
+	A2: 80
+	R2: she was turning 80
+	```
+
+
 - [SQuAD 2.0, 2018](https://rajpurkar.github.io/SQuAD-explorer/)📝     
 
 	> SQuAD2.0 combines the 100,000 questions in SQuAD1.1 with over 50,000 new, unanswerable questions written adversarially by crowdworkers to look similar to answerable ones.
