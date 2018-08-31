@@ -29,6 +29,18 @@ This is a list of NLP corpora. You can report a new corpus at the Issues page.
 ## Corpora
 ### Dialog (Task-oriented)
 
+- [Permuted Dialog bAbI tasks, IBM, EMNLP 2018.](https://github.com/IBM/permuted-bAbI-dialog-tasks)
+
+	```
+	28 <SILENCE>	what do you think of this option: resto_rome_expensive_french_8stars-1|what do you think of this option: resto_rome_expensive_french_8stars-2
+	29 do you have something else	sure let me find an other option for you
+	30 <SILENCE>	what do you think of this option: resto_rome_expensive_french_8stars-2
+	31 do you have something else	sure let me find an other option for you
+	32 <SILENCE>	what do you think of this option: resto_rome_expensive_french_1stars
+	33 that looks great	great let me do the reservation
+	```
+
+
 - [MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling, EMNLP 2018.](https://arxiv.org/pdf/1807.06517.pdf)👦👦🧙‍    
 2480 single-domain dialogs and 7375 multi-domain dialogs (usually from 2 up to 5 domains).    
 This dataset is designed for Dialog State Tracking.
