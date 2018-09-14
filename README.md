@@ -216,6 +216,21 @@ The dialogs are our daily communication way and cover various topics about our d
 ### Question Answering
 
 - [Open Book Question Answering, 2018.](http://data.allenai.org/OpenBookQA)
+> OpenBookQA, modeled after open book exams for assessing human understanding of a subject. The open book that comes with our questions is a set of 1326 elementary level science facts. Roughly 6000 questions probe an understanding of these facts and their application to novel situations. This requires combining an open book fact (e.g., metals conduct electricity) with broad common knowledge (e.g., a suit of armor is made of metal) obtained from other sources.         
+	```
+	Question:
+	Which of these would let the most heat travel through?
+	A) a new pair of jeans.
+	B) a steel spoon in a cafeteria.
+	C) a cotton candy at a store.
+	D) a calvin klein cotton hat.
+	Science Fact:
+	Metal is a thermal conductor.
+	Common Knowledge:
+	Steel is made of metal.
+	Heat travels through a thermal conductor.
+	```
+	
 
 - [CoQA, 2018](https://stanfordnlp.github.io/coqa/)🧒🧒🗣  
 CoQA is a large-scale dataset for building Conversational Question Answering systems. It contains 127K questions with answers obtained from 8K conversations. Each conversation is collected by paring two crowdworkers to chat about a passage in the form of QAs.    
