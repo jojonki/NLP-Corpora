@@ -217,6 +217,7 @@ The dialogs are our daily communication way and cover various topics about our d
 
 - [Open Book Question Answering, 2018.](http://data.allenai.org/OpenBookQA)
 > OpenBookQA, modeled after open book exams for assessing human understanding of a subject. The open book that comes with our questions is a set of 1326 elementary level science facts. Roughly 6000 questions probe an understanding of these facts and their application to novel situations. This requires combining an open book fact (e.g., metals conduct electricity) with broad common knowledge (e.g., a suit of armor is made of metal) obtained from other sources.         
+        
 	```
 	Question:
 	Which of these would let the most heat travel through?
