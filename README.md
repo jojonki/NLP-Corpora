@@ -215,6 +215,8 @@ The dialogs are our daily communication way and cover various topics about our d
 
 ### Question Answering
 
+- [Open Book Question Answering, 2018.](http://data.allenai.org/OpenBookQA)
+
 - [CoQA, 2018](https://stanfordnlp.github.io/coqa/)🧒🧒🗣  
 CoQA is a large-scale dataset for building Conversational Question Answering systems. It contains 127K questions with answers obtained from 8K conversations. Each conversation is collected by paring two crowdworkers to chat about a passage in the form of QAs.    
 	```
