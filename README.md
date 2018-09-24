@@ -159,6 +159,16 @@ Dialog State Tracking Challenge is research community tasks. The link presents e
 
 ### Dialog (Others)
 
+- [Document Grounded Conversations. EMNLP 2018](https://github.com/festvox/datasets-CMU_DoG)
+Conversations that are about the contents of a specified document. The documents were Wikipedia articles about movies.
+The dataset contains 4112 conversations with an average of 21.43 turns per conversation.    
+
+
+	```
+	user2: Hey have you seen the inception?
+	user1: No, I have not but have heard of it. What is it about
+	user2: It’s about extractors that perform experiments using military technology on people to retrieve info about their targets.
+	```
 
 - [Personalizing Dialogue Agents, facebook, 2018.](https://github.com/facebookresearch/ParlAI/tree/master/projects/personachat)👦🧒📝    
 Two people dialogs, conditioned on personas.
@@ -273,7 +283,8 @@ This is a __Chinese corpus__. Over three thousand questions by 20 Chinese speake
 - [YouTube AV 50K: an Annotated Corpus for Comments in Autonomous Vehicles, 2018](https://arxiv.org/abs/1807.11227)🧒📝  
 Comments from 50K Youtube videos related to autonomous vehicles. The total # of comments is 30,456 including 19,126 annotated comments.
 
-- [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference. EMNLP 2018.](https://rowanzellers.com/swag/)
+- [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference. 
+2018.](https://rowanzellers.com/swag/)
 SWAG (Situations With Adversarial Generations) is a dataset for grounded commonsense inference. It consists of 113k multiple choice questions about grounded situations.
 
 	```
