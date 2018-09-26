@@ -280,6 +280,21 @@ This is a __Chinese corpus__. Over three thousand questions by 20 Chinese speake
 🚧
 
 ### Others
+- [Spider 1.0, EMNLP 2018](https://yale-lily.github.io/spider)
+A human-labeled dataset for complex and cross-domain semantic parsing and Text-to-SQL Task.    
+
+	```
+	Question: What are the name and budget of the departments with average instructor salary greater than the overall average?
+	SQL: 
+	SELECT T2.name, T2.budget
+	FROM instructor as T1 JOIN department as
+	T2 ON T1.department_id = T2.id 
+	GROUP BY T1.department_id
+	HAVING avg(T1.salary) > (SELECT avg(salary) FROM instructor)
+	```
+
+
+
 - [YouTube AV 50K: an Annotated Corpus for Comments in Autonomous Vehicles, 2018](https://arxiv.org/abs/1807.11227)🧒📝  
 Comments from 50K Youtube videos related to autonomous vehicles. The total # of comments is 30,456 including 19,126 annotated comments.
 
