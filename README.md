@@ -280,7 +280,7 @@ This is a __Chinese corpus__. Over three thousand questions by 20 Chinese speake
 🚧
 
 ### Others
-- [Spider 1.0, EMNLP 2018](https://yale-lily.github.io/spider)
+- [Spider 1.0, EMNLP 2018](https://yale-lily.github.io/spider)  
 A human-labeled dataset for complex and cross-domain semantic parsing and Text-to-SQL Task.    
 
 	```
