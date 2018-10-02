@@ -316,6 +316,9 @@ SWAG (Situations With Adversarial Generations) is a dataset for grounded commons
 	d) jumps up and does a back flip.
 	```
 
+- [Friends TV Corpus, 2011](https://sites.google.com/site/friendstvcorpus/)
+The data was created for an analysis of the use of various linguistic structures and a comparison of their use in inter-gender and intra-gender conversation environments in "Friends". The paper's title is "A STUDY INTO THE USE OF LINGUISTIC STRUCTURES USED INTER-GENDER AND INTRA-GENDER IN THE TV SHOW ‘FRIENDS’".
+
 ## References
 - [A Survey of Available Corpora for Building Data-Driven Dialogue Systems](https://breakend.github.io/DialogDatasets/)
 - [Natural Language Processing Corpora, NLP for Hackers](https://nlpforhackers.io/corpora/)
