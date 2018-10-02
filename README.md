@@ -317,7 +317,12 @@ SWAG (Situations With Adversarial Generations) is a dataset for grounded commons
 	```
 
 - [Friends TV Corpus, 2011](https://sites.google.com/site/friendstvcorpus/)
-The data was created for an analysis of the use of various linguistic structures and a comparison of their use in inter-gender and intra-gender conversation environments in "Friends". The paper's title is "A STUDY INTO THE USE OF LINGUISTIC STRUCTURES USED INTER-GENDER AND INTRA-GENDER IN THE TV SHOW ‘FRIENDS’".
+The data was created for an analysis of the use of various linguistic structures and a comparison of their use in inter-gender and intra-gender conversation environments in "Friends". The paper's title is "A STUDY INTO THE USE OF LINGUISTIC STRUCTURES USED INTER-GENDER AND INTRA-GENDER IN THE TV SHOW ‘FRIENDS’".    
+
+	```
+	1	1	MONICA	F	Monica: There's nothing to tell! He's just some guy I work with!	There's nothing to tell! He's just some guy I work with!	There_EX 's_VBZ nothing_PN1 to_TO tell_VVI !_! He_PPHS1 's_VBZ just_RR some_DD guy_NN1 I_PPIS1 work_VV0 with_IW !_!	0101.txt
+	101	1	JOEY	M	Joey: C'mon, you're going out with the guy! There's gotta be something wrong with him!	C'mon, you're going out with the guy! There's gotta be something wrong with him!	C'm_VV0 on_RP you_PPY 're_VBR going_VVG out_RP with_IW the_AT guy_NN1 !_! There_EX 's_VHZ got_VVN 
+	```
 
 ## References
 - [A Survey of Available Corpora for Building Data-Driven Dialogue Systems](https://breakend.github.io/DialogDatasets/)
