@@ -159,6 +159,10 @@ Dialog State Tracking Challenge is research community tasks. The link presents e
 
 ### Dialog (Others)
 
+- [Multimodal EmotionLines Dataset. 2018](https://affective-meld.github.io/)👦🧒🗣     
+MELD is a multi-modal (audio/vision/text with an emotion) dataset using Friends TV shows. It has more than 1300 dialogues and 13000 utterances.
+<img src="https://raw.githubusercontent.com/jojonki/NLP-Corpora/master/img/meld.jpeg" width="500" />
+
 - [Document Grounded Conversations. EMNLP 2018](https://github.com/festvox/datasets-CMU_DoG)
 Conversations that are about the contents of a specified document. The documents were Wikipedia articles about movies.
 The dataset contains 4112 conversations with an average of 21.43 turns per conversation.    
