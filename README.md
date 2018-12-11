@@ -13,6 +13,7 @@ This is a list of NLP corpora. You can report a new corpus at the Issues page.
 		- [Question Answering](#question-answering)
 		- [Translation](#translation)
 		- [Sentiment Analysis](#sentiment-analysis)
+		- [Recommendation](#recommendation)
 		- [Others](#others)
 	- [References](#references)
 
@@ -286,6 +287,21 @@ This is a __Chinese corpus__. Over three thousand questions by 20 Chinese speake
 ### Sentiment Analysis
 
 🚧
+
+
+### Recommendation
+- [ReDial. Microsoft Research. NIPS 2018](https://redialdata.github.io/website)
+A large-scale data set consisting of real-world dialogues centered around movie recommendations. 
+ReDial consists of over 10K conversations centered around the theme of providing movie recommendations.
+
+	```
+	SEEKER: those sound good ! i ’m going to look into those movies.
+	HUMAN: i hope you enjoy, have a nice one
+	HRED: have you seen foxcatcher ? it ’s about a man who has a
+	rich guy.
+	OURS: i hope i was able to help you find a good movie to watch
+	SEEKER: thank you for your help ! have a great night ! good bye
+	```
 
 ### Others
 - [WikiHow. 2018](https://github.com/mahnazkoupaee/WikiHow-Dataset)
